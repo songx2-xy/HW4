@@ -8,7 +8,7 @@ class TestCube(unittest.TestCase):
         self.assertEqual(cube.cube(25),15625)
         self.assertEqual(cube.cube(0),0)
     def test_cube3(self):
-        self.assertEqual(cube.cube("a"),"Error")
+        self.assertEqual(cube.cube("a1b3"),"Error")
         self.assertEqual(cube.cube("b"),"Error")
 if __name__=="__main__":
     unittest.main(verbosity=2)
