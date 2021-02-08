@@ -11,4 +11,4 @@ class TestCube(unittest.TestCase):
         self.assertEqual(cube.cube("a"),"Error")
         self.assertEqual(cube.cube("b"),"Error")
 if __name__=="__main__":
-    unittest.main()
+    unittest.main(verbosity=2)
