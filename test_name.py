@@ -11,4 +11,4 @@ class TestName(unittest.TestCase):
         self.assertEqual(name.name("Joe",6),"Error")
         self.assertEqual(name.name(5,6),"Error")
 if __name__=="__main__":
-    unittest.main()
+    unittest.main(verbosity=2)
