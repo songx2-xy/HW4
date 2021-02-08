@@ -11,4 +11,4 @@ class TestAverage(unittest.TestCase):
         self.assertEqual(average.average([ ]),"Error")
         self.assertEqual(average.average(["e","b","a"]),"Error")
 if __name__=="__main__":
-    unittest.main()
+    unittest.main(verbosity=2)
